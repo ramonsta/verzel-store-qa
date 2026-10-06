@@ -1,0 +1,36 @@
+{
+  "executadoEm": "2026-10-06T11:38:40.436Z",
+  "endpoint": "https://verzel-store.qa-test-verzel-store.workers.dev/api/carrinho/calcular",
+  "requisicao": {
+    "itens": [
+      {
+        "produtoId": "P007",
+        "quantidade": 1
+      }
+    ],
+    "cupom": "BEMVINDO10"
+  },
+  "status": 200,
+  "resposta": {
+    "itens": [
+      {
+        "produtoId": "P007",
+        "nome": "Jaqueta Corta-Vento",
+        "precoUnitario": 229.9,
+        "quantidade": 1,
+        "total": 229.9
+      }
+    ],
+    "subtotal": 229.9,
+    "desconto": 22.99,
+    "frete": 0,
+    "freteGratis": true,
+    "valorFaltanteFreteGratis": 0,
+    "total": 206.91,
+    "cupom": {
+      "codigo": "BEMVINDO10",
+      "aplicado": true,
+      "mensagem": "Cupom aplicado: 10% de desconto nos produtos."
+    }
+  }
+}

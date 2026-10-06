@@ -1,0 +1,27 @@
+{
+  "name": "verzel-store-qa",
+  "version": "1.0.0",
+  "description": "Teste técnico QA Júnior — Verzel Store: testes manuais, exploratórios, de API e automação com Playwright.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=chromium",
+    "report": "playwright show-report --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramonsta/verzel-store-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ramonsta/verzel-store-qa/issues"
+  },
+  "homepage": "https://github.com/ramonsta/verzel-store-qa#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
